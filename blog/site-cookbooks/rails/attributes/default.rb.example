@@ -1,0 +1,1 @@
+default['secret_key_base'] = "secret_key_base"

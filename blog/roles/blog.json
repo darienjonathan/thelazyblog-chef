@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "description": "blog's provision",
+  "run_list": [
+    "recipe[base]",
+    "recipe[mysql]",
+    "recipe[ruby]",
+    "recipe[nginx]",
+    "recipe[rails]"
+  ]
+}

@@ -1,0 +1,19 @@
+#
+# Cookbook:: nginx
+# Recipe:: default
+#
+# Copyright:: 2017, The Authors, All Rights Reserved.
+
+package "nginx"
+
+template "/etc/nginx/nginx.conf" do #di node nya tar ditaro di path/to/file (file name ya)
+  source 'nginx.conf.erb' #filename start dari cookbook_name/templates/default
+  owner node['user']['name']
+  mode 0644
+  variables({
+    socket_name: node['sock']['name'],
+    blog_dir: node['blog']['dir']
+   }) #ini bs hash jg keliatannya
+end
+
+execute "service nginx start"

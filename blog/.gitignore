@@ -1,0 +1,7 @@
+/cookbooks/
+/.chef
+
+nodes/*
+!nodes/ip_address.json
+
+site-cookbooks/*/attributes/default.rb

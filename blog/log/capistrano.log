@@ -1,0 +1,219 @@
+# Logfile created on 2017-09-11 21:43:20 +0900 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-11 21:43:20 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c3f475ca] Running /usr/bin/env mkdir -p /tmp as darienjonathan@52.197.226.143
+ DEBUG [c3f475ca] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-11 21:44:05 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [54335bc8] Running /usr/bin/env mkdir -p /tmp as darienjonathan@13.112.251.88
+ DEBUG [54335bc8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [54335bc8] Finished in 0.356 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 0.0%
+  INFO Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 100.0%
+  INFO [a7a4632c] Running /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh as darienjonathan@13.112.251.88
+ DEBUG [a7a4632c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh
+  INFO [a7a4632c] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [8ce48f23] Running /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD as darienjonathan@13.112.251.88
+ DEBUG [8ce48f23] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD )
+ DEBUG [8ce48f23] 	c300a69f7d8424a661786d1103fedd63cfc415e5	HEAD
+  INFO [8ce48f23] Finished in 0.666 seconds with exit status 0 (successful).
+  INFO [d9aeea46] Running /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases as darienjonathan@13.112.251.88
+ DEBUG [d9aeea46] Command: /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases
+  INFO [d9aeea46] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-11 21:44:41 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4fdb7d49] Running /usr/bin/env mkdir -p /tmp as darienjonathan@13.112.251.88
+ DEBUG [4fdb7d49] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4fdb7d49] Finished in 0.314 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 0.0%
+  INFO Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 100.0%
+  INFO [9eea3dad] Running /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh as darienjonathan@13.112.251.88
+ DEBUG [9eea3dad] Command: /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh
+  INFO [9eea3dad] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [0f6c8f58] Running /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD as darienjonathan@13.112.251.88
+ DEBUG [0f6c8f58] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD )
+ DEBUG [0f6c8f58] 	c300a69f7d8424a661786d1103fedd63cfc415e5	HEAD
+  INFO [0f6c8f58] Finished in 0.645 seconds with exit status 0 (successful).
+  INFO [1014e373] Running /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases as darienjonathan@13.112.251.88
+ DEBUG [1014e373] Command: /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases
+  INFO [1014e373] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-11 21:44:55 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [77a13d65] Running /usr/bin/env mkdir -p /tmp as darienjonathan@13.112.251.88
+ DEBUG [77a13d65] Command: /usr/bin/env mkdir -p /tmp
+  INFO [77a13d65] Finished in 0.318 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 0.0%
+  INFO Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 100.0%
+  INFO [371280f5] Running /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh as darienjonathan@13.112.251.88
+ DEBUG [371280f5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh
+  INFO [371280f5] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [14f5beeb] Running /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD as darienjonathan@13.112.251.88
+ DEBUG [14f5beeb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD )
+ DEBUG [14f5beeb] 	c300a69f7d8424a661786d1103fedd63cfc415e5	HEAD
+  INFO [14f5beeb] Finished in 0.707 seconds with exit status 0 (successful).
+  INFO [1b2e9cf8] Running /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases as darienjonathan@13.112.251.88
+ DEBUG [1b2e9cf8] Command: /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases
+  INFO [1b2e9cf8] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [ea353ec1] Running [ -f /var/www/blog/current/REVISION ] as darienjonathan@13.112.251.88
+ DEBUG [ea353ec1] Command: [ -f /var/www/blog/current/REVISION ]
+ DEBUG [ea353ec1] Finished in 0.055 seconds with exit status 1 (failed).
+ DEBUG [c0d0d377] Running [ -f /var/www/blog/repo/HEAD ] as darienjonathan@13.112.251.88
+ DEBUG [c0d0d377] Command: [ -f /var/www/blog/repo/HEAD ]
+ DEBUG [c0d0d377] Finished in 0.058 seconds with exit status 1 (failed).
+ DEBUG [cbb4d5e7] Running if test ! -d /var/www/blog; then echo "Directory does not exist '/var/www/blog'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [cbb4d5e7] Command: if test ! -d /var/www/blog; then echo "Directory does not exist '/var/www/blog'" 1>&2; false; fi
+ DEBUG [cbb4d5e7] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [51fb05d4] Running /usr/bin/env git clone --mirror https://github.com/darienjonathan/thelazyblog.git /var/www/blog/repo as darienjonathan@13.112.251.88
+ DEBUG [51fb05d4] Command: cd /var/www/blog && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git clone --mirror https://github.com/darienjonathan/thelazyblog.git /var/www/blog/repo )
+ DEBUG [51fb05d4] 	Cloning into bare repository '/var/www/blog/repo'...
+  INFO [51fb05d4] Finished in 3.043 seconds with exit status 0 (successful).
+ DEBUG [bf7dd214] Running if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [bf7dd214] Command: if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi
+ DEBUG [bf7dd214] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [90770e43] Running /usr/bin/env git remote set-url origin https://github.com/darienjonathan/thelazyblog.git as darienjonathan@13.112.251.88
+ DEBUG [90770e43] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git remote set-url origin https://github.com/darienjonathan/thelazyblog.git )
+  INFO [90770e43] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [594fa8db] Running /usr/bin/env git remote update --prune as darienjonathan@13.112.251.88
+ DEBUG [594fa8db] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [594fa8db] 	Fetching origin
+  INFO [594fa8db] Finished in 0.644 seconds with exit status 0 (successful).
+ DEBUG [f32f1b84] Running if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [f32f1b84] Command: if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi
+ DEBUG [f32f1b84] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [e8196401] Running /usr/bin/env mkdir -p /var/www/blog/releases/20170911124456 as darienjonathan@13.112.251.88
+ DEBUG [e8196401] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env mkdir -p /var/www/blog/releases/20170911124456 )
+  INFO [e8196401] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [0cca2395] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/blog/releases/20170911124456 as darienjonathan@13.112.251.88
+ DEBUG [0cca2395] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/blog/releases/20170911124456 )
+  INFO [0cca2395] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [ef12449d] Running if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [ef12449d] Command: if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi
+ DEBUG [ef12449d] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [aeb1be82] Running /usr/bin/env git rev-list --max-count=1 master as darienjonathan@13.112.251.88
+ DEBUG [aeb1be82] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [aeb1be82] 	c300a69f7d8424a661786d1103fedd63cfc415e5
+ DEBUG [aeb1be82] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [9d545120] Running if test ! -d /var/www/blog/releases/20170911124456; then echo "Directory does not exist '/var/www/blog/releases/20170911124456'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [9d545120] Command: if test ! -d /var/www/blog/releases/20170911124456; then echo "Directory does not exist '/var/www/blog/releases/20170911124456'" 1>&2; false; fi
+ DEBUG [9d545120] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [8f55203b] Running /usr/bin/env echo "c300a69f7d8424a661786d1103fedd63cfc415e5" >> REVISION as darienjonathan@13.112.251.88
+ DEBUG [8f55203b] Command: cd /var/www/blog/releases/20170911124456 && /usr/bin/env echo "c300a69f7d8424a661786d1103fedd63cfc415e5" >> REVISION
+  INFO [8f55203b] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [ecced870] Running /usr/bin/env ln -s /var/www/blog/releases/20170911124456 /var/www/blog/releases/current as darienjonathan@13.112.251.88
+ DEBUG [ecced870] Command: /usr/bin/env ln -s /var/www/blog/releases/20170911124456 /var/www/blog/releases/current
+  INFO [ecced870] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [1ee6cddd] Running /usr/bin/env mv /var/www/blog/releases/current /var/www/blog as darienjonathan@13.112.251.88
+ DEBUG [1ee6cddd] Command: /usr/bin/env mv /var/www/blog/releases/current /var/www/blog
+  INFO [1ee6cddd] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [4d4d4194] Running /usr/bin/env ls -x /var/www/blog/releases as darienjonathan@13.112.251.88
+ DEBUG [4d4d4194] Command: /usr/bin/env ls -x /var/www/blog/releases
+ DEBUG [4d4d4194] 	20170911124456
+ DEBUG [4d4d4194] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [05ac31a5] Running if test ! -d /var/www/blog/releases; then echo "Directory does not exist '/var/www/blog/releases'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [05ac31a5] Command: if test ! -d /var/www/blog/releases; then echo "Directory does not exist '/var/www/blog/releases'" 1>&2; false; fi
+ DEBUG [05ac31a5] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [40b6f453] Running /usr/bin/env echo "Branch master (at c300a69f7d8424a661786d1103fedd63cfc415e5) deployed as release 20170911124456 by darien-winata" >> /var/www/blog/revisions.log as darienjonathan@13.112.251.88
+ DEBUG [40b6f453] Command: cd /var/www/blog/releases && /usr/bin/env echo "Branch master (at c300a69f7d8424a661786d1103fedd63cfc415e5) deployed as release 20170911124456 by darien-winata" >> /var/www/blog/revisions.log
+  INFO [40b6f453] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-11 21:45:49 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bde9c8e5] Running /usr/bin/env mkdir -p /tmp as darienjonathan@13.112.251.88
+ DEBUG [bde9c8e5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bde9c8e5] Finished in 0.323 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 0.0%
+  INFO Uploading /tmp/git-ssh-self-journal-production-darien-winata.sh 100.0%
+  INFO [ef8b2491] Running /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh as darienjonathan@13.112.251.88
+ DEBUG [ef8b2491] Command: /usr/bin/env chmod 700 /tmp/git-ssh-self-journal-production-darien-winata.sh
+  INFO [ef8b2491] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [ba0c344b] Running /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD as darienjonathan@13.112.251.88
+ DEBUG [ba0c344b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git ls-remote https://github.com/darienjonathan/thelazyblog.git HEAD )
+ DEBUG [ba0c344b] 	c300a69f7d8424a661786d1103fedd63cfc415e5	HEAD
+  INFO [ba0c344b] Finished in 0.609 seconds with exit status 0 (successful).
+  INFO [e9926930] Running /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases as darienjonathan@13.112.251.88
+ DEBUG [e9926930] Command: /usr/bin/env mkdir -p /var/www/blog/shared /var/www/blog/releases
+  INFO [e9926930] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [f3ac27cc] Running /usr/bin/env mkdir -p /var/www/blog/shared as darienjonathan@13.112.251.88
+ DEBUG [f3ac27cc] Command: /usr/bin/env mkdir -p /var/www/blog/shared
+  INFO [f3ac27cc] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [6a93393e] Running [ -f /var/www/blog/shared/.env.production ] as darienjonathan@13.112.251.88
+ DEBUG [6a93393e] Command: [ -f /var/www/blog/shared/.env.production ]
+ DEBUG [6a93393e] Finished in 0.040 seconds with exit status 0 (successful).
+ DEBUG [ab87c46c] Running [ -f /var/www/blog/current/REVISION ] as darienjonathan@13.112.251.88
+ DEBUG [ab87c46c] Command: [ -f /var/www/blog/current/REVISION ]
+ DEBUG [ab87c46c] Finished in 0.041 seconds with exit status 0 (successful).
+ DEBUG [497a7785] Running /usr/bin/env cat /var/www/blog/current/REVISION 2>/dev/null as darienjonathan@13.112.251.88
+ DEBUG [497a7785] Command: /usr/bin/env cat /var/www/blog/current/REVISION 2>/dev/null
+ DEBUG [497a7785] 	c300a69f7d8424a661786d1103fedd63cfc415e5
+ DEBUG [497a7785] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [e390c025] Running [ -f /var/www/blog/repo/HEAD ] as darienjonathan@13.112.251.88
+ DEBUG [e390c025] Command: [ -f /var/www/blog/repo/HEAD ]
+ DEBUG [e390c025] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/blog/repo
+ DEBUG [d5976d17] Running if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [d5976d17] Command: if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi
+ DEBUG [d5976d17] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [94a94f23] Running /usr/bin/env git remote set-url origin https://github.com/darienjonathan/thelazyblog.git as darienjonathan@13.112.251.88
+ DEBUG [94a94f23] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git remote set-url origin https://github.com/darienjonathan/thelazyblog.git )
+  INFO [94a94f23] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [d8aad01b] Running /usr/bin/env git remote update --prune as darienjonathan@13.112.251.88
+ DEBUG [d8aad01b] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d8aad01b] 	Fetching origin
+  INFO [d8aad01b] Finished in 0.648 seconds with exit status 0 (successful).
+ DEBUG [fe168d49] Running if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [fe168d49] Command: if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi
+ DEBUG [fe168d49] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [9e89c915] Running /usr/bin/env mkdir -p /var/www/blog/releases/20170911124550 as darienjonathan@13.112.251.88
+ DEBUG [9e89c915] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env mkdir -p /var/www/blog/releases/20170911124550 )
+  INFO [9e89c915] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [95282837] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/blog/releases/20170911124550 as darienjonathan@13.112.251.88
+ DEBUG [95282837] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/blog/releases/20170911124550 )
+  INFO [95282837] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [c1aae92c] Running if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [c1aae92c] Command: if test ! -d /var/www/blog/repo; then echo "Directory does not exist '/var/www/blog/repo'" 1>&2; false; fi
+ DEBUG [c1aae92c] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [d6e14a9b] Running /usr/bin/env git rev-list --max-count=1 master as darienjonathan@13.112.251.88
+ DEBUG [d6e14a9b] Command: cd /var/www/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-self-journal-production-darien-winata.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d6e14a9b] 	c300a69f7d8424a661786d1103fedd63cfc415e5
+ DEBUG [d6e14a9b] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [e12ccd7b] Running if test ! -d /var/www/blog/releases/20170911124550; then echo "Directory does not exist '/var/www/blog/releases/20170911124550'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [e12ccd7b] Command: if test ! -d /var/www/blog/releases/20170911124550; then echo "Directory does not exist '/var/www/blog/releases/20170911124550'" 1>&2; false; fi
+ DEBUG [e12ccd7b] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [da8421e7] Running /usr/bin/env echo "c300a69f7d8424a661786d1103fedd63cfc415e5" >> REVISION as darienjonathan@13.112.251.88
+ DEBUG [da8421e7] Command: cd /var/www/blog/releases/20170911124550 && /usr/bin/env echo "c300a69f7d8424a661786d1103fedd63cfc415e5" >> REVISION
+  INFO [da8421e7] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [80f5e6d9] Running /usr/bin/env mkdir -p /var/www/blog/releases/20170911124550 as darienjonathan@13.112.251.88
+ DEBUG [80f5e6d9] Command: /usr/bin/env mkdir -p /var/www/blog/releases/20170911124550
+  INFO [80f5e6d9] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [92909d5f] Running [ -L /var/www/blog/releases/20170911124550/.env.production ] as darienjonathan@13.112.251.88
+ DEBUG [92909d5f] Command: [ -L /var/www/blog/releases/20170911124550/.env.production ]
+ DEBUG [92909d5f] Finished in 0.042 seconds with exit status 1 (failed).
+ DEBUG [f47a2c32] Running [ -f /var/www/blog/releases/20170911124550/.env.production ] as darienjonathan@13.112.251.88
+ DEBUG [f47a2c32] Command: [ -f /var/www/blog/releases/20170911124550/.env.production ]
+ DEBUG [f47a2c32] Finished in 0.042 seconds with exit status 1 (failed).
+  INFO [fceb3120] Running /usr/bin/env ln -s /var/www/blog/shared/.env.production /var/www/blog/releases/20170911124550/.env.production as darienjonathan@13.112.251.88
+ DEBUG [fceb3120] Command: /usr/bin/env ln -s /var/www/blog/shared/.env.production /var/www/blog/releases/20170911124550/.env.production
+  INFO [fceb3120] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [e424e5f4] Running /usr/bin/env ln -s /var/www/blog/releases/20170911124550 /var/www/blog/releases/current as darienjonathan@13.112.251.88
+ DEBUG [e424e5f4] Command: /usr/bin/env ln -s /var/www/blog/releases/20170911124550 /var/www/blog/releases/current
+  INFO [e424e5f4] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [3b5f87d9] Running /usr/bin/env mv /var/www/blog/releases/current /var/www/blog as darienjonathan@13.112.251.88
+ DEBUG [3b5f87d9] Command: /usr/bin/env mv /var/www/blog/releases/current /var/www/blog
+  INFO [3b5f87d9] Finished in 0.041 seconds with exit status 0 (successful).
+ DEBUG [626cb3ed] Running /usr/bin/env ls -x /var/www/blog/releases as darienjonathan@13.112.251.88
+ DEBUG [626cb3ed] Command: /usr/bin/env ls -x /var/www/blog/releases
+ DEBUG [626cb3ed] 	20170911124456	20170911124550
+ DEBUG [626cb3ed] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [9160facd] Running if test ! -d /var/www/blog/releases; then echo "Directory does not exist '/var/www/blog/releases'" 1>&2; false; fi as darienjonathan@13.112.251.88
+ DEBUG [9160facd] Command: if test ! -d /var/www/blog/releases; then echo "Directory does not exist '/var/www/blog/releases'" 1>&2; false; fi
+ DEBUG [9160facd] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [2237292e] Running /usr/bin/env echo "Branch master (at c300a69f7d8424a661786d1103fedd63cfc415e5) deployed as release 20170911124550 by darien-winata" >> /var/www/blog/revisions.log as darienjonathan@13.112.251.88
+ DEBUG [2237292e] Command: cd /var/www/blog/releases && /usr/bin/env echo "Branch master (at c300a69f7d8424a661786d1103fedd63cfc415e5) deployed as release 20170911124550 by darien-winata" >> /var/www/blog/revisions.log
+  INFO [2237292e] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-11 21:48:56 +0900 cap production puma:config
+  INFO ---------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+{
+  "user":{
+    "name":"user_name",
+    "pass":"shadow_hashed_password"
+  },
+  "group":"group",
+  "blog":{
+    "dir":"blog_dir",
+    "name":"blog_name"
+  },
+  "ruby":{
+    "version":"ruby_ver"
+  },
+  "db":{
+    "user":"db_root_user",
+    "pass":"db_root_pass",
+    "host":"db_host",
+    "socket":"mysql_socket",
+    "prod_pass":"db_prod_pass"
+  },
+  "run_list": [
+    "role[blog]"
+  ]
+}
