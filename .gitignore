@@ -12,11 +12,6 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
-/yarn-error.log
 /vendor
 
-.byebug_history
-
-.env
-/public
+/config/deploy/production.rb
