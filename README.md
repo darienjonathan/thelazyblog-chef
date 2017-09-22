@@ -25,9 +25,9 @@ See? Both are aimed to:
 * [Chef](#chef)
   * [Chef Installation](#chef-installation)
   * [Overview](#overview)
-  * [This Repository’s Cookbooks](#this-repositorys’-cookbooks)
+  * [This Repository’s Cookbooks](#this-repositorys-cookbooks)
   * [Understanding Cookbooks](#understanding-cookbooks)
-  * [.gitignore](#.gitignore)
+  * [.gitignore](#gitignore)
 * [Capistrano](#capistrano)
   * [Capistrano Installation](#capistrano-installation)
   * [Settings](#settings)
@@ -170,7 +170,7 @@ When you want to have a server running your code, what you do is:
 
 Basically, capistrano does all that for you, if you configure it properly.
 
-### Installation
+### Capistrano Installation
 Prerequisites: Ruby, bundler
 Steps: put this in your `Gemfile`:
 ```ruby
