@@ -1,4 +1,5 @@
-thelazyblog-chef
+
+# thelazyblog-chef
 This repository is used to provision the server which http://darienjonathan.com is running on the top of, and to deploy the codes from [this repository](https://github.com/darienjonathan/thelazyblog) to http://darienjonathan.com.
 
 this repository makes use of two tools (ruby gems):
@@ -16,12 +17,28 @@ See? Both are aimed to:
 
 **AUTOMATE ALL THE TASKS!**
 
-## How to run the scripts
+## Table of Contents
+* [How to Run the Scripts](#how-to-run-the-scripts)
+  * [Running Chef](#running-chef)
+  * [Enabling Deploy User to Connect to Remote](#enabling-deploy-user-to-connect-to-remote)
+  * [Running Capistrano](#running-capistrano)
+* [Chef](#chef)
+  * [Chef Installation](#chef-installation)
+  * [Overview](#overview)
+  * [This Repository’s Cookbooks](#this-repositorys’-cookbooks)
+  * [Understanding Cookbooks](#understanding-cookbooks)
+  * [.gitignore](#.gitignore)
+* [Capistrano](#capistrano)
+  * [Capistrano Installation](#capistrano-installation)
+  * [Settings](#settings)
+* [References](#references)
+
+## How to Run the Scripts
 **Make sure to read the explanations below to understand what is happening!**
 
 First, `git clone https://github.com/darienjonathan/thelazyblog-chef /path/to/dir`. Then:
 
-### Chef
+### Running Chef
 1. `cd /path/to/dir/blog`
 2. configure the scripts based on your needs (explanation below)
 3. `knife-solo bootstrap username@address`
@@ -34,7 +51,7 @@ If you’re using different username to deploy, do this so capistrano can connec
 4. `chown {deploy_username}:{deploy_group} /home/{deploy_username}/.ssh/authorized_keys` 
 5. `chown {deploy_username}:{deploy_group} /home/{deploy_username}/.ssh/`
 
-### Capistrano
+### Running Capistrano
 1. `cd /path/to/dir`
 2. `bundle install --path=vendor/bundle`
 3. configure the scripts based on your needs (explanation below)
@@ -57,7 +74,7 @@ Anyway, the name `Chef` comes from this analogy:
 * and you are the `Chef`. You read `cookbooks` created by the others and `cook` the dish based on the `recipes` you have been given, or you just simply create your own `cookbooks` and `cook` the dish based of your own liking.
 * And to cook the dishes, you want to have a `kitchen`, a place to cook. The directories that contains Chef configurations are called `kitchen`.
 
-### Installation
+### Chef Installation
 Prerequisites: Ruby installed in your local machine, and obviously a remote machine to be provisioned.
 Steps: `gem install chef`, then `gem install knife-solo` if you want to install `knife-solo` globally.
 If you have a bundler, and you want to install it locally, put this in your `Gemfile`,
