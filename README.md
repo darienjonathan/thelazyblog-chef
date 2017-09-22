@@ -1,5 +1,4 @@
-
-# thelazyblog-chef
+thelazyblog-chef
 This repository is used to provision the server which http://darienjonathan.com is running on the top of, and to deploy the codes from [this repository](https://github.com/darienjonathan/thelazyblog) to http://darienjonathan.com.
 
 this repository makes use of two tools (ruby gems):
@@ -15,7 +14,7 @@ See? Both are aimed to:
 * eliminate the need to enter your remote server to manually do things, and
 * to do things in one command.
 
-AUTOMATE ALL THE TASKS!
+**AUTOMATE ALL THE TASKS!**
 
 ## How to run the scripts
 **Make sure to read the explanations below to understand what is happening!**
@@ -201,12 +200,12 @@ There’s actually a role settings, but I don’t know how to utilize that, so I
 
 ## References
 ### Chef
-knife-solo: [knife-solo](https://matschaffer.github.io/knife-solo/)
-example of how to write cookbooks by yourself: [Provisioning a Rails Server Using Chef, Part 1: Introduction to Chef Solo](http://vladigleba.com/blog/2014/07/28/provisioning-a-rails-server-using-chef-part-1-introduction-to-chef-solo/)
-chef resources: [About Resources — Chef Docs](https://docs.chef.io/resource.html)
-cookbook directories: [Cookbook Directory Structure](http://www.thegeekstuff.com/2016/06/chef-cookbook-directory-structure/)
+* knife-solo: [knife-solo](https://matschaffer.github.io/knife-solo/)
+* example of how to write cookbooks by yourself: [Provisioning a Rails Server Using Chef, Part 1: Introduction to Chef Solo](http://vladigleba.com/blog/2014/07/28/provisioning-a-rails-server-using-chef-part-1-introduction-to-chef-solo/)
+* chef resources: [About Resources — Chef Docs](https://docs.chef.io/resource.html)
+* cookbook directories: [Cookbook Directory Structure](http://www.thegeekstuff.com/2016/06/chef-cookbook-directory-structure/)
 
 ### Capistrano
-capistrano github: [GitHub - capistrano/capistrano: Remote multi-server automation tool](https://github.com/capistrano/capistrano)
-capistrano puma github: [GitHub - seuros/capistrano-puma: Puma integration for Capistrano](https://github.com/seuros/capistrano-puma)
-example: [Deploy your code with Capistrano  •  Beanstalk Guides](http://guides.beanstalkapp.com/deployments/deploy-with-capistrano.html)
+* capistrano github: [GitHub - capistrano/capistrano: Remote multi-server automation tool](https://github.com/capistrano/capistrano)
+* capistrano puma github: [GitHub - seuros/capistrano-puma: Puma integration for Capistrano](https://github.com/seuros/capistrano-puma)
+ * example: [Deploy your code with Capistrano  •  Beanstalk Guides](http://guides.beanstalkapp.com/deployments/deploy-with-capistrano.html)
