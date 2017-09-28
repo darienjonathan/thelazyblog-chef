@@ -6,6 +6,11 @@
 
 package "mysql-server"
 package "mysql-devel"
+
+cookbook_file '/etc/my.cnf' do
+  source 'my.cnf'
+end
+
 execute "service mysqld start"
 
 bash "mysql-initialization" do
@@ -15,7 +20,7 @@ bash "mysql-initialization" do
   EOH
 end
 
-template "#{node['blog']['dir']}#{node['prod']['file']}" do
+template "#{node['blog']['dir']}/#{node['prod']['file']}" do
   source "production.sql.erb"
   owner node['user']['name']
   mode 0644
@@ -27,9 +32,9 @@ template "#{node['blog']['dir']}#{node['prod']['file']}" do
 end
 
 execute "add production db" do
-  command "mysql -u #{node['db']['user']} -p#{node['db']['pass']} < #{node['blog']['dir']}#{node['prod']['file']}"
+  command "mysql -u #{node['db']['user']} -p#{node['db']['pass']} < #{node['blog']['dir']}/#{node['prod']['file']}"
 end
 
-file "#{node['blog']['dir']}#{node['prod']['file']}" do
+file "#{node['blog']['dir']}/#{node['prod']['file']}" do
   action :delete
 end
