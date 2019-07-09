@@ -55,7 +55,9 @@ If you’re using different username to deploy, do this so capistrano can connec
 1. `cd /path/to/dir`
 2. `bundle install --path=vendor/bundle`
 3. configure the scripts based on your needs (explanation below)
-4. `bundle exec capistrano production deploy` (or any tasks that suits your needs) 
+4. `bundle exec cap production deploy` (or any tasks that suits your needs)
+
+> Personal note: run `bundle exec cap production deploy puma:start` to start puma while deploying
 
 ## Chef
 What are you doing when you want to setup an empty server?
