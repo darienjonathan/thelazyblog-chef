@@ -4,18 +4,39 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-package "mysql-server"
-package "mysql-devel"
+package "mariadb-server"
+package "mariadb-devel"
 
 cookbook_file '/etc/my.cnf' do
   source 'my.cnf'
 end
 
-execute "service mysqld start"
+file '/var/log/mysqld.log' do
+  owner 'mysql'
+  group 'mysql'
+  mode '0755'
+  action :touch
+end
+
+directory '/var/lib/mysql' do
+  owner 'mysql'
+  group 'mysql'
+  mode '0755'
+  action :create
+end
+
+directory '/var/run/mysqld' do
+  owner 'mysql'
+  group 'mysql'
+  mode '0755'
+  action :create
+end
+
+execute "systemctl start mariadb.service"
 
 bash "mysql-initialization" do
   code <<-EOH
-    service mysqld start
+    systemctl start mariadb.service
     mysqladmin -u #{node['db']['user']} password #{node['db']['pass']}
   EOH
 end
