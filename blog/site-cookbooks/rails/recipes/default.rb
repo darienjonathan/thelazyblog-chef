@@ -11,9 +11,12 @@ execute "nodejs rpm" do
 end
 package "nodejs"
 
-execute "yarn repo" do
-  command "wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo"
+bash "install yarn" do
+  code <<-EOH
+    wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
+  EOH
 end
+
 package "yarn"
 
 template "#{node['blog']['dir']}/shared/.env.production" do

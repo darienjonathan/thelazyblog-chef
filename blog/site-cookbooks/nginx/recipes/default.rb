@@ -4,7 +4,9 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-package "nginx"
+execute "install nginx" do
+  command "amazon-linux-extras install nginx1.12"
+end
 
 template "/etc/nginx/nginx.conf" do #di node nya tar ditaro di path/to/file (file name ya)
   source 'nginx.conf.erb' #filename start dari cookbook_name/templates/default
@@ -16,4 +18,4 @@ template "/etc/nginx/nginx.conf" do #di node nya tar ditaro di path/to/file (fil
    }) #ini bs hash jg keliatannya
 end
 
-execute "service nginx start"
+execute "systemctl start nginx"
