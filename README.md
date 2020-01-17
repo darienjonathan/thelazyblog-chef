@@ -3,10 +3,10 @@
 
 ## THE CAPISTRANO HAS BEEN MOVED TO MAIN REPO
 
-The capistrano has been moved to [main repository](https://github.com/darienjonathan/thelazyblog).
-The reasoning of this move is to enable Capistrano to run `rake precompile:assets` locally, which requires Capsitrano to reside in the main repository.  
-The explanation about capistrano and its usage will be written on the main blog to show the readers on the main repo how to use the capistrano,  
-and the ones here will be be kept as it is, to give readers overall knowledge about provisioning and deployment.
+The capistrano has been moved to [main repository](https://github.com/darienjonathan/thelazyblog).  
+The reasoning of this move is to enable Capistrano to run `rake precompile:assets` locally, which requires Capsitrano to reside in the main repository.
+
+The explanation about capistrano and its usage will be written on the main blog to show the readers on the main repo how to use the capistrano, and the ones here will be be kept as it is, to give readers overall knowledge about provisioning and deployment.
 
 ## Introduction
 
