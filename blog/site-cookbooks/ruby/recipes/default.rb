@@ -19,12 +19,8 @@ bash "install rbenv" do
   not_if { File.exists?("/home/#{node['user']['name']}/.rbenv/bin/rbenv") }
 end
 
-bash "source" do
-  user node['user']['name']
-  cwd "/home/#{node['user']['name']}"
-  environment ({"HOME" => "/home/#{node['user']['name']}"}) 
-  code "source /home/#{node['user']['name']}/.bash_profile"
-end
+# RUBY_CONFIGURE_OPTS=--disable-install-doc on line 38
+# to prevent `make: *** [rdoc] Killed` error, when installed on t3a.nano (2020/1)
 
 bash "install ruby" do
   version_path = "/home/#{node['user']['name']}/.rbenv/version"
@@ -32,9 +28,8 @@ bash "install ruby" do
   environment ({"HOME" => "/home/#{node['user']['name']}"}) 
   cwd "/home/#{node['user']['name']}"
   code <<-EOH
-    export HOME=/home/#{node['user']['name']}
-    export RBENV_ROOT="${HOME}/.rbenv"
-    export PATH="${RBENV_ROOT}/bin:${PATH}"
+    source /home/#{node['user']['name']}/.bash_profile
+    export RUBY_CONFIGURE_OPTS=--disable-install-doc
     rbenv install #{node['ruby']['version']}
     rbenv global #{node['ruby']['version']}
     rbenv rehash
